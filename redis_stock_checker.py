@@ -1,38 +1,34 @@
-import redis
+import os
 import json
 import pandas as pd
-import os
 
-
-# --- Redis connection ---
-def get_redis():
-    return redis.Redis(host="localhost", port=6379, db=0, decode_responses=True)
+# Import the utility functions from your redis_utils.py file
+from redis_utils import get_redis, get_recent_candles, get_recent_indicators
 
 
 def fetch_candles(stock_code: str, n: int = 2):
     """Fetch last N candles from Redis (chronological order)."""
     r = get_redis()
-    key = f"candles:{stock_code.upper()}"
-    items = r.lrange(key, 0, n - 1)  # newest-first
+    items = get_recent_candles(r, stock_code, n)  # Use the function from redis_utils
     if not items:
         print(f"[⚠️] No candles found in Redis for {stock_code}")
         return None
-    rows = [json.loads(x) for x in items]
-    df = pd.DataFrame(rows)
+
+    df = pd.DataFrame(items)
     df["minute"] = pd.to_datetime(df["minute"])
+    # The get_recent_candles function returns newest-first, so sort it for chronological order
     return df.sort_values("minute").reset_index(drop=True)
 
 
 def fetch_indicators(stock_code: str, n: int = 2):
     """Fetch last N indicators from Redis (newest first)."""
     r = get_redis()
-    key = f"indicators:{stock_code.upper()}"
-    items = r.lrange(key, 0, n - 1)
+    items = get_recent_indicators(r, stock_code, n)  # Use the function from redis_utils
     if not items:
         print(f"[⚠️] No indicators found in Redis for {stock_code}")
         return None
-    rows = [json.loads(x) for x in items]
-    return pd.DataFrame(rows)
+
+    return pd.DataFrame(items)
 
 
 def fetch_historical(stock_code: str, folder="historical_data"):
@@ -42,8 +38,10 @@ def fetch_historical(stock_code: str, folder="historical_data"):
         return None
 
     hist_csv = None
+    # Use a more robust way to find the file
+    file_prefix = f"{stock_code.upper()}_historical_"
     for file in os.listdir(folder):
-        if file.startswith(f"{stock_code}_historical_") and file.endswith(".csv"):
+        if file.startswith(file_prefix) and file.endswith(".csv"):
             hist_csv = os.path.join(folder, file)
             break
 
@@ -61,11 +59,12 @@ def fetch_historical(stock_code: str, folder="historical_data"):
 if __name__ == "__main__":
     stock = "MMFL"
 
-    # df_candles = fetch_candles(stock, n=5)
-    # if df_candles is not None:
-    #     print(f"[🕒] Redis Candles columns for {stock}: {list(df_candles.columns)}")
+    # You can now uncomment and use the functions
+    df_candles = fetch_candles(stock, n=2)
+    if df_candles is not None:
+        print(f"[🕒] Redis Candles columns for {stock}: {list(df_candles.columns)}")
 
-    df_indicators = fetch_indicators(stock, n=5)
+    df_indicators = fetch_indicators(stock, n=2)
     if df_indicators is not None:
         print(
             f"[📈] Redis Indicators columns for {stock}: {list(df_indicators.columns)}",
