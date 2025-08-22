@@ -1,0 +1,65 @@
+{
+  "stocks": [
+    {
+      "stock_code": "RELIANCE",
+      "instrument_token": 128083204,
+      "support": 1414.49,
+      "resistance": 1421.77,
+      "volume_threshold": 492,
+      "bollinger": {
+        "mid_price": 1418.13,
+        "upper_band": 1421.77,
+        "lower_band": 1414.49
+      },
+      "macd": {},
+      "adx": {
+        "period": 14,
+        "threshold": 20
+      },
+      "moving_averages": {},
+      "inside_bar": {},
+      "candle": {},
+      "reason": [],
+      "last_updated": "2025-08-20 15:03:36",
+      "signal": "No Action",
+      "forecast": "basic_algo"
+    },
+    {
+      "stock_code": "JIOFIN",
+      "instrument_token": 4644609,
+      "support": 327.61,
+      "resistance": 331.55,
+      "volume_threshold": 29165,
+      "bollinger": {
+        "mid_price": 329.58,
+        "upper_band": 331.38,
+        "lower_band": 327.61
+      },
+      "macd": {
+        "signal_line": 4.16,
+        "histogram": 0.003,
+        "ma_fast": 330.66,
+        "ma_slow": 330.65,
+        "ma_signal": 330.66
+      },
+      "adx": {
+        "period": 14,
+        "threshold": 20
+      },
+      "moving_averages": {
+        "ma_fast": 9,
+        "ma_slow": 20
+      },
+      "inside_bar": {
+        "lookback": 1
+      },
+      "candle": {
+        "min_body_percent": 0.7
+      },
+      "reason": [],
+      "last_updated": "2025-08-20 15:03:46",
+      "signal": "No Action",
+      "forecast": "basic_algo"
+    }
+  ]
+}

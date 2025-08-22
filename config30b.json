@@ -1,0 +1,872 @@
+{
+  "stocks": [
+    {
+      "stock_code": "CDSL",
+      "instrument_token": 5420545,
+      "support": 1562.29,
+      "resistance": 1579.9,
+      "volume_threshold": 6198,
+      "bollinger": {
+        "mid_price": 1571.1,
+        "upper_band": 1576.78,
+        "lower_band": 1562.29
+      },
+      "macd": {
+        "signal_line": -0.3542017241072997,
+        "histogram": 0.007775188782746023,
+        "ma_fast": 1580.888888888889,
+        "ma_slow": 1581.115,
+        "ma_signal": 1580.888888888889
+      },
+      "adx": {
+        "period": 14,
+        "threshold": 20
+      },
+      "moving_averages": {
+        "ma_fast": 9,
+        "ma_slow": 20
+      },
+      "inside_bar": {
+        "lookback": 1
+      },
+      "candle": {
+        "min_body_percent": 0.7
+      },
+      "reason": [],
+      "last_updated": "2025-08-22 11:38:24",
+      "signal": "No Action",
+      "forecast": "basic_algo"
+    },
+    {
+      "stock_code": "BSE",
+      "instrument_token": 5013761,
+      "support": 2320.9,
+      "resistance": 2346.85,
+      "volume_threshold": 64069,
+      "bollinger": {
+        "mid_price": 2333.88,
+        "upper_band": 2346.85,
+        "lower_band": 2322.18
+      },
+      "macd": {
+        "signal_line": -46.61,
+        "histogram": 5.12,
+        "ma_fast": 2416.58,
+        "ma_slow": 2456.16,
+        "ma_signal": 2416.58
+      },
+      "adx": {
+        "period": 14,
+        "threshold": 20
+      },
+      "moving_averages": {
+        "ma_fast": 9,
+        "ma_slow": 20
+      },
+      "inside_bar": {
+        "lookback": 1
+      },
+      "candle": {
+        "min_body_percent": 0.7
+      },
+      "reason": [],
+      "last_updated": "2025-08-22 11:38:34",
+      "signal": "No Action",
+      "forecast": "basic_algo"
+    },
+    {
+      "stock_code": "JIOFIN",
+      "instrument_token": 4644609,
+      "support": 323.04,
+      "resistance": 324.95,
+      "volume_threshold": 48134,
+      "bollinger": {
+        "mid_price": 324.0,
+        "upper_band": 324.61,
+        "lower_band": 323.04
+      },
+      "macd": {
+        "signal_line": 4.16,
+        "histogram": 0.2044,
+        "ma_fast": 331.04,
+        "ma_slow": 330.67,
+        "ma_signal": 328.31
+      },
+      "adx": {
+        "period": 14,
+        "threshold": 20
+      },
+      "moving_averages": {
+        "ma_fast": 9,
+        "ma_slow": 20
+      },
+      "inside_bar": {
+        "lookback": 1
+      },
+      "candle": {
+        "min_body_percent": 0.7
+      },
+      "reason": [],
+      "last_updated": "2025-08-22 11:38:44",
+      "signal": "No Action",
+      "forecast": "basic_algo"
+    },
+    {
+      "stock_code": "GESHIP",
+      "instrument_token": 3526657,
+      "support": 972.41,
+      "resistance": 983.51,
+      "volume_threshold": 1467,
+      "bollinger": {
+        "mid_price": 977.96,
+        "upper_band": 983.51,
+        "lower_band": 972.41
+      },
+      "macd": {
+        "signal_line": -9.8703,
+        "histogram": 3.4523,
+        "ma_fast": 945.3667,
+        "ma_slow": 955.805,
+        "ma_signal": 955.9193
+      },
+      "adx": {
+        "period": 14,
+        "threshold": 20
+      },
+      "moving_averages": {
+        "ma_fast": 9,
+        "ma_slow": 20
+      },
+      "inside_bar": {
+        "lookback": 1
+      },
+      "candle": {
+        "min_body_percent": 0.7
+      },
+      "reason": [],
+      "last_updated": "2025-08-22 11:38:54",
+      "signal": "No Action",
+      "forecast": "basic_algo"
+    },
+    {
+      "stock_code": "MCX",
+      "instrument_token": 7982337,
+      "support": 7876.86,
+      "resistance": 8059.24,
+      "volume_threshold": 4078,
+      "bollinger": {
+        "mid_price": 7968.05,
+        "upper_band": 8059.24,
+        "lower_band": 7876.86
+      },
+      "macd": {
+        "signal_line": 2.548794962765562,
+        "histogram": 0.6589594853761516,
+        "ma_fast": 8294.055555555555,
+        "ma_slow": 8287.875,
+        "ma_signal": 2.548794962765562
+      },
+      "adx": {
+        "period": 14,
+        "threshold": 25
+      },
+      "moving_averages": {
+        "ma_fast": 9,
+        "ma_slow": 20
+      },
+      "inside_bar": {
+        "lookback": 1
+      },
+      "candle": {
+        "min_body_percent": 0.7
+      },
+      "reason": [],
+      "last_updated": "2025-08-22 11:39:04",
+      "signal": "No Action",
+      "forecast": "basic_algo"
+    },
+    {
+      "stock_code": "GRSE",
+      "instrument_token": 1401601,
+      "support": 2588.59,
+      "resistance": 2649.56,
+      "volume_threshold": 1507,
+      "bollinger": {
+        "mid_price": 2619.07,
+        "upper_band": 2649.56,
+        "lower_band": 2588.59
+      },
+      "macd": {
+        "signal_line": 0.2389,
+        "histogram": 0.2322,
+        "ma_fast": 2561.0,
+        "ma_slow": 2600.0,
+        "ma_signal": 2550.0
+      },
+      "adx": {
+        "period": 14,
+        "threshold": 20
+      },
+      "moving_averages": {
+        "ma_fast": 9,
+        "ma_slow": 20
+      },
+      "inside_bar": {
+        "lookback": 1
+      },
+      "candle": {
+        "min_body_percent": 0.7
+      },
+      "reason": [],
+      "last_updated": "2025-08-22 11:39:15",
+      "signal": "No Action",
+      "forecast": "basic_algo"
+    },
+    {
+      "stock_code": "DELHIVERY",
+      "instrument_token": 2457345,
+      "support": 469.7,
+      "resistance": 472.28,
+      "volume_threshold": 5478,
+      "bollinger": {
+        "mid_price": 470.99,
+        "upper_band": 472.28,
+        "lower_band": 469.71
+      },
+      "macd": {
+        "signal_line": 0.44,
+        "histogram": 0.17,
+        "ma_fast": 471.76,
+        "ma_slow": 470.54,
+        "ma_signal": 470.54
+      },
+      "adx": {
+        "period": 14,
+        "threshold": 20
+      },
+      "moving_averages": {
+        "ma_fast": 9,
+        "ma_slow": 20
+      },
+      "inside_bar": {
+        "lookback": 1
+      },
+      "candle": {
+        "min_body_percent": 0.7
+      },
+      "reason": [],
+      "last_updated": "2025-08-22 11:39:25",
+      "signal": "No Action",
+      "forecast": "basic_algo"
+    },
+    {
+      "stock_code": "PARAS",
+      "instrument_token": 1513217,
+      "support": 678.54,
+      "resistance": 692.01,
+      "volume_threshold": 241,
+      "bollinger": {
+        "mid_price": 685.28,
+        "upper_band": 692.01,
+        "lower_band": 678.54
+      },
+      "macd": {
+        "signal_line": 0.3692,
+        "histogram": 0.2423,
+        "ma_fast": 679.7,
+        "ma_slow": 679.12,
+        "ma_signal": 0.0
+      },
+      "adx": {
+        "period": 14,
+        "threshold": 20
+      },
+      "moving_averages": {
+        "ma_fast": 9,
+        "ma_slow": 20
+      },
+      "inside_bar": {
+        "lookback": 1
+      },
+      "candle": {
+        "min_body_percent": 0.7
+      },
+      "reason": [],
+      "last_updated": "2025-08-21 15:34:37",
+      "signal": "No Action",
+      "forecast": "basic_algo"
+    },
+    {
+      "stock_code": "RRKABEL",
+      "instrument_token": 4752897,
+      "support": 1204.41,
+      "resistance": 1224.25,
+      "volume_threshold": 2628,
+      "bollinger": {
+        "mid_price": 1214.33,
+        "upper_band": 1224.25,
+        "lower_band": 1204.41
+      },
+      "macd": {
+        "signal_line": 0.6462662949848765,
+        "histogram": 0.11195076434197637,
+        "ma_fast": 1218.7,
+        "ma_slow": 1217.775,
+        "ma_signal": 0.0
+      },
+      "adx": {
+        "period": 14,
+        "threshold": 22.74
+      },
+      "moving_averages": {
+        "ma_fast": 9,
+        "ma_slow": 20
+      },
+      "inside_bar": {
+        "lookback": 1
+      },
+      "candle": {
+        "min_body_percent": 0.7
+      },
+      "reason": [],
+      "last_updated": "2025-08-21 15:34:47",
+      "signal": "No Action",
+      "forecast": "basic_algo"
+    },
+    {
+      "stock_code": "RTNINDIA",
+      "instrument_token": 6988033,
+      "support": 53.75,
+      "resistance": 54.71,
+      "volume_threshold": 1984,
+      "bollinger": {
+        "mid_price": 54.23,
+        "upper_band": 54.71,
+        "lower_band": 53.75
+      },
+      "macd": {
+        "signal_line": 0.0025,
+        "histogram": 0.0018,
+        "ma_fast": 53.84,
+        "ma_slow": 53.48,
+        "ma_signal": 53.48
+      },
+      "adx": {
+        "period": 14,
+        "threshold": 20
+      },
+      "moving_averages": {
+        "ma_fast": 9,
+        "ma_slow": 20
+      },
+      "inside_bar": {
+        "lookback": 1
+      },
+      "candle": {
+        "min_body_percent": 0.7
+      },
+      "reason": [],
+      "last_updated": "2025-08-21 15:34:57",
+      "signal": "No Action",
+      "forecast": "basic_algo"
+    },
+    {
+      "stock_code": "PARADEEP",
+      "instrument_token": 2493697,
+      "support": 219.48,
+      "resistance": 220.5,
+      "volume_threshold": 19568,
+      "bollinger": {
+        "mid_price": 219.99,
+        "upper_band": 220.44,
+        "lower_band": 219.48
+      },
+      "macd": {
+        "signal_line": 12.921,
+        "histogram": -2.7109,
+        "ma_fast": 220.33,
+        "ma_slow": 208.4,
+        "ma_signal": 208.4
+      },
+      "adx": {
+        "period": 14,
+        "threshold": 20
+      },
+      "moving_averages": {
+        "ma_fast": 9,
+        "ma_slow": 20
+      },
+      "inside_bar": {
+        "lookback": 1
+      },
+      "candle": {
+        "min_body_percent": 0.7
+      },
+      "reason": [],
+      "last_updated": "2025-08-21 15:35:07",
+      "signal": "No Action",
+      "forecast": "basic_algo"
+    },
+    {
+      "stock_code": "COCHINSHIP",
+      "instrument_token": 5506049,
+      "support": 1695.26,
+      "resistance": 1763.4,
+      "volume_threshold": 1080,
+      "bollinger": {
+        "mid_price": 1729.33,
+        "upper_band": 1763.4,
+        "lower_band": 1695.26
+      },
+      "macd": {
+        "signal_line": 0.7117137550318986,
+        "histogram": 0.6620015133324231,
+        "ma_fast": 1707.975,
+        "ma_slow": 1707.975,
+        "ma_signal": 1707.975
+      },
+      "adx": {
+        "period": 14,
+        "threshold": 20
+      },
+      "moving_averages": {
+        "ma_fast": 9,
+        "ma_slow": 20
+      },
+      "inside_bar": {
+        "lookback": 1
+      },
+      "candle": {
+        "min_body_percent": 0.7
+      },
+      "reason": [],
+      "last_updated": "2025-08-21 15:35:17",
+      "signal": "No Action",
+      "forecast": "basic_algo"
+    },
+    {
+      "stock_code": "TRENT",
+      "instrument_token": 502785,
+      "support": 5449.5,
+      "resistance": 5468.76,
+      "volume_threshold": 5776,
+      "bollinger": {
+        "mid_price": 5459.13,
+        "upper_band": 5468.76,
+        "lower_band": 5450.14
+      },
+      "macd": {
+        "signal_line": 4.15,
+        "histogram": -0.47,
+        "ma_fast": 5503.3,
+        "ma_slow": 5501.5,
+        "ma_signal": 0.0
+      },
+      "adx": {
+        "period": 14,
+        "threshold": 20
+      },
+      "moving_averages": {
+        "ma_fast": 9,
+        "ma_slow": 20
+      },
+      "inside_bar": {
+        "lookback": 1
+      },
+      "candle": {
+        "min_body_percent": 0.7
+      },
+      "reason": [],
+      "last_updated": "2025-08-21 15:35:27",
+      "signal": "No Action",
+      "forecast": "basic_algo"
+    },
+    {
+      "stock_code": "POWERINDIA",
+      "instrument_token": 4724993,
+      "support": 19491.95,
+      "resistance": 20598.55,
+      "volume_threshold": 229,
+      "bollinger": {
+        "mid_price": 20045.25,
+        "upper_band": 20598.55,
+        "lower_band": 19491.95
+      },
+      "macd": {
+        "signal_line": 10.4,
+        "histogram": -5.6,
+        "ma_fast": 19770.0,
+        "ma_slow": 19804.0,
+        "ma_signal": 19800.0
+      },
+      "adx": {
+        "period": 14,
+        "threshold": 20
+      },
+      "moving_averages": {
+        "ma_fast": 9,
+        "ma_slow": 20
+      },
+      "inside_bar": {
+        "lookback": 1
+      },
+      "candle": {
+        "min_body_percent": 0.7
+      },
+      "reason": [],
+      "last_updated": "2025-08-21 15:35:37",
+      "signal": "No Action",
+      "forecast": "basic_algo"
+    },
+    {
+      "stock_code": "KAJARIACER",
+      "instrument_token": 462849,
+      "support": 1275.34,
+      "resistance": 1283.5,
+      "volume_threshold": 499,
+      "bollinger": {
+        "mid_price": 1279.42,
+        "upper_band": 1282.95,
+        "lower_band": 1275.34
+      },
+      "macd": {
+        "signal_line": 0.9747802938382268,
+        "histogram": 0.05082142997431549,
+        "ma_fast": 1292.1888888888889,
+        "ma_slow": 1290.7050000000002,
+        "ma_signal": 0.9747802938382268
+      },
+      "adx": {
+        "period": 14,
+        "threshold": 20
+      },
+      "moving_averages": {
+        "ma_fast": 9,
+        "ma_slow": 20
+      },
+      "inside_bar": {
+        "lookback": 1
+      },
+      "candle": {
+        "min_body_percent": 0.7
+      },
+      "reason": [
+        "Price near support 1275.34 with volume spike.",
+        "ADX 27.0 strong.",
+        "MACD histogram falling.",
+        "VWAP alignment OK."
+      ],
+      "last_updated": "2025-08-21 15:35:47",
+      "signal": "Potential Breakdown",
+      "forecast": "basic_algo"
+    },
+    {
+      "stock_code": "FORCEMOT",
+      "instrument_token": 2962689,
+      "support": 20576.82,
+      "resistance": 21915.58,
+      "volume_threshold": 78,
+      "bollinger": {
+        "mid_price": 21246.2,
+        "upper_band": 21915.58,
+        "lower_band": 20576.82
+      },
+      "macd": {
+        "signal_line": 6.389882551421106,
+        "histogram": 1.8017334511223595,
+        "ma_fast": 9.0,
+        "ma_slow": 20.0,
+        "ma_signal": 6.389882551421106
+      },
+      "adx": {
+        "period": 14,
+        "threshold": 20
+      },
+      "moving_averages": {
+        "ma_fast": 9,
+        "ma_slow": 20
+      },
+      "inside_bar": {
+        "lookback": 1
+      },
+      "candle": {
+        "min_body_percent": 0.7
+      },
+      "reason": [],
+      "last_updated": "2025-08-21 15:35:57",
+      "signal": "No Action",
+      "forecast": "basic_algo"
+    },
+    {
+      "stock_code": "POLYCAB",
+      "instrument_token": 2455041,
+      "support": 7068.0,
+      "resistance": 7100.0,
+      "volume_threshold": 806,
+      "bollinger": {
+        "mid_price": 7084.0,
+        "upper_band": 7092.15,
+        "lower_band": 7068.4
+      },
+      "macd": {
+        "signal_line": 5.456097510641024,
+        "histogram": 1.7666069355323142,
+        "ma_fast": 7113.166666666667,
+        "ma_slow": 7102.775,
+        "ma_signal": 0.0
+      },
+      "adx": {
+        "period": 14,
+        "threshold": 20
+      },
+      "moving_averages": {
+        "ma_fast": 9,
+        "ma_slow": 20
+      },
+      "inside_bar": {
+        "lookback": 1
+      },
+      "candle": {
+        "min_body_percent": 0.7
+      },
+      "reason": [],
+      "last_updated": "2025-08-21 15:36:07",
+      "signal": "No Action",
+      "forecast": "basic_algo"
+    },
+    {
+      "stock_code": "ANANDRATHI",
+      "instrument_token": 1829121,
+      "support": 2792.13,
+      "resistance": 2828.8,
+      "volume_threshold": 45,
+      "bollinger": {
+        "mid_price": 2810.46,
+        "upper_band": 2827.87,
+        "lower_band": 2792.13
+      },
+      "macd": {
+        "signal_line": 0.06,
+        "histogram": 0.06,
+        "ma_fast": 2822.0,
+        "ma_slow": 2822.0,
+        "ma_signal": 2822.0
+      },
+      "adx": {
+        "period": 14,
+        "threshold": 20
+      },
+      "moving_averages": {
+        "ma_fast": 9,
+        "ma_slow": 20
+      },
+      "inside_bar": {
+        "lookback": 1
+      },
+      "candle": {
+        "min_body_percent": 0.7
+      },
+      "reason": [],
+      "last_updated": "2025-08-21 15:36:17",
+      "signal": "No Action",
+      "forecast": "basic_algo"
+    },
+    {
+      "stock_code": "CHOLAHLDNG",
+      "instrument_token": 5565441,
+      "support": 1879.12,
+      "resistance": 1892.4,
+      "volume_threshold": 610,
+      "bollinger": {
+        "mid_price": 1885.76,
+        "upper_band": 1891.38,
+        "lower_band": 1879.12
+      },
+      "macd": {
+        "signal_line": -4.95,
+        "histogram": -0.37,
+        "ma_fast": 1849.43,
+        "ma_slow": 1856.44,
+        "ma_signal": 1856.44
+      },
+      "adx": {
+        "period": 14,
+        "threshold": 20
+      },
+      "moving_averages": {
+        "ma_fast": 9,
+        "ma_slow": 20
+      },
+      "inside_bar": {
+        "lookback": 1
+      },
+      "candle": {
+        "min_body_percent": 0.7
+      },
+      "reason": [],
+      "last_updated": "2025-08-21 15:36:27",
+      "signal": "No Action",
+      "forecast": "basic_algo"
+    },
+    {
+      "stock_code": "NATCOPHARM",
+      "instrument_token": 1003009,
+      "support": 880.22,
+      "resistance": 883.6,
+      "volume_threshold": 1633,
+      "bollinger": {
+        "mid_price": 881.91,
+        "upper_band": 883.32,
+        "lower_band": 880.25
+      },
+      "macd": {
+        "signal_line": -0.049999999999954525,
+        "histogram": 0.14999999999997726,
+        "ma_fast": 894.1167,
+        "ma_slow": 892.6475,
+        "ma_signal": 894.1167
+      },
+      "adx": {
+        "period": 14,
+        "threshold": 20
+      },
+      "moving_averages": {
+        "ma_fast": 9,
+        "ma_slow": 20
+      },
+      "inside_bar": {
+        "lookback": 1
+      },
+      "candle": {
+        "min_body_percent": 0.7
+      },
+      "reason": [],
+      "last_updated": "2025-08-21 15:36:37",
+      "signal": "No Action",
+      "forecast": "basic_algo"
+    },
+    {
+      "stock_code": "GMDCLTD",
+      "instrument_token": 1332225,
+      "support": 426.82,
+      "resistance": 429.45,
+      "volume_threshold": 7586,
+      "bollinger": {
+        "mid_price": 428.14,
+        "upper_band": 429.22,
+        "lower_band": 427.32
+      },
+      "macd": {
+        "signal_line": 0.0323,
+        "histogram": -0.2,
+        "ma_fast": 429.21,
+        "ma_slow": 0.0,
+        "ma_signal": 0.0
+      },
+      "adx": {
+        "period": 14,
+        "threshold": 20
+      },
+      "moving_averages": {
+        "ma_fast": 9,
+        "ma_slow": 20
+      },
+      "inside_bar": {
+        "lookback": 1
+      },
+      "candle": {
+        "min_body_percent": 0.7
+      },
+      "reason": [],
+      "last_updated": "2025-08-21 15:36:47",
+      "signal": "No Action",
+      "forecast": "basic_algo"
+    },
+    {
+      "stock_code": "ETERNAL",
+      "instrument_token": 1304833,
+      "support": 316.0,
+      "resistance": 323.7,
+      "volume_threshold": 15000,
+      "bollinger": {
+        "mid_price": 316.45,
+        "upper_band": 316.55,
+        "lower_band": 316.35
+      },
+      "macd": {
+        "signal_line": 0.007,
+        "histogram": 0.0118,
+        "ma_fast": 316.45,
+        "ma_slow": 316.45,
+        "ma_signal": 316.45
+      },
+      "adx": {
+        "period": 14,
+        "threshold": 20
+      },
+      "moving_averages": {
+        "ma_fast": 316.45,
+        "ma_slow": 316.45
+      },
+      "inside_bar": {
+        "lookback": 1
+      },
+      "candle": {
+        "min_body_percent": 0.7
+      },
+      "reason": [
+        "Support adjusted to 316.0 based on recent lows.",
+        "Resistance adjusted to 323.7 based on recent highs.",
+        "Bollinger Bands updated based on recent price movements.",
+        "MACD indicates a neutral trend with minimal divergence.",
+        "Recent candles show consolidation near support and resistance levels."
+      ],
+      "last_updated": "2025-08-21 15:36:57",
+      "signal": "Hold",
+      "forecast": "basic_algo"
+    },
+    {
+      "stock_code": "RPOWER-BE",
+      "instrument_token": 3906817,
+      "support": 50.09,
+      "resistance": 50.09,
+      "volume_threshold": 7155,
+      "bollinger": {
+        "mid_price": 50.09,
+        "upper_band": 50.09,
+        "lower_band": 50.09
+      },
+      "macd": {
+        "signal_line": 0.00266,
+        "histogram": -0.00101,
+        "ma_fast": 45.44,
+        "ma_slow": 45.44,
+        "ma_signal": 44.22
+      },
+      "adx": {
+        "period": 14,
+        "threshold": 20
+      },
+      "moving_averages": {
+        "ma_fast": 9,
+        "ma_slow": 20
+      },
+      "inside_bar": {
+        "lookback": 1
+      },
+      "candle": {
+        "min_body_percent": 0.7
+      },
+      "reason": [
+        "Price near resistance 50.09 with volume spike.",
+        "ADX 42.5 strong.",
+        "EMA20/50 slopes positive.",
+        "MACD histogram rising.",
+        "VWAP alignment OK."
+      ],
+      "last_updated": "2025-08-21 15:33:16",
+      "signal": "Strong Breakout",
+      "forecast": "basic_algo"
+    }
+  ]
+}
